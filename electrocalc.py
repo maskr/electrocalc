@@ -119,7 +119,6 @@ for x in range(0, 4):
 titulodiv.select_set(0)
 
 seleccion = titulodiv.index(ACTIVE)
-print (seleccion)
 
 boton3=Button(finestra, activebackground="red", bg="black", fg="red", text="Ok", command=operationsel)
 boton3.config(highlightbackground="black")
